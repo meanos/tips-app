@@ -44,10 +44,10 @@ function closePopupDialogue() {
 }
 
 function setUserDetails() {
-        var userDetails = {username:"extern", name: $("#userName").val(), avatar: $(".selectedAvatar > img").attr("avatarName"),password: $("#userPassword").val()};
+        var userDetails = {username:"meanOs", name: $("#userName").val(), avatar: $(".selectedAvatar > img").attr("avatarName"),password: $("#userPassword").val()};
         console.log("USER DETAILS",userDetails);
 	$("#letsGoButton").attr('disabled','disabled');
-        win.setUserDetails(userDetails,"extern",confirmUserDetails);
+        win.setUserDetails(userDetails,"meanOs",confirmUserDetails);
 }
 
 $( document ).ready(function() {
